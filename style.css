@@ -1,0 +1,181 @@
+body{
+    background-image: url("images/image_2.jpg");
+    padding: 0;
+    margin: 0;
+}
+
+.common {
+    /* Just to center the form on the page */
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin: 0 auto;
+    padding: 2em 2em 1em 3em;
+    width: 310px;
+    background-color: #00898e;
+    margin-top: 20px;
+}
+
+form div + div {
+    margin-top: 2em;
+}
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    color: white;
+    /*display: inline-block;*/
+    text-align: right;
+    width: 90px;
+    font-family: 'Roboto';
+}
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em helvetica;
+
+    /* To give the same size to all text field */
+    width: 373px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+     border: 1px solid #999;
+    box-sizing: border-box;
+    float: right;
+    font: 1em helvetica;
+    margin: -62px 500px 0 0;
+    width: 373px;
+}
+
+.neighbourhood{
+    float: left;
+    margin-left: 279px;
+}
+
+.store{
+    float: left;
+    margin-left: 95px;
+    padding-bottom: 15px;
+
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+    color: #E8340C;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: #00898e;
+}
+
+*{
+    color: #eee;
+    font-family: 'roboto', sans-serif;
+}
+
+ul, ul li{
+    display: inline-block;
+}
+
+li{
+    padding-right: 20px;
+}
+
+
+
+.logo h1{
+    width: 30%;
+    display: block;
+    float: left;
+    font-family: 'Yellowtail', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #003638;
+    border-bottom: 2px solid #003638;
+}
+
+.active{
+    color: #003638;
+    border-bottom: 2px solid #003638;    
+}
+
+nav{
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+header{
+    background-color: rgba(0,137,142,0.5);
+    display: block;
+    padding-bottom: 80px;
+}
+
+h1{
+    padding: 0 8px;
+}
+
+select{
+    background-color: #005f63;
+}
+
+input{
+    color: #000;
+}
+
+#link{
+    color: #003638;
+}
+
+#delete_pg{
+    background-image: url(images/bg.png);
+}
+
+#pop-up{
+    margin-top: 12%;
+}
+
+#no{
+    position: absolute;
+    top: 52.8%;
+    left: 57%;
+}
+
+.search-bar button{
+    position: absolute;
+    top: 4.5%;
+    right: 33%;
+}
+
+#fixed{
+    width: 30%;
+}
